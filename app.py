@@ -206,6 +206,6 @@ def gm6(data_x3='008.Filling  time [s]', g_id6='1'):
     graphJSON6 = json.dumps(fig6, cls=plotly.utils.PlotlyJSONEncoder)
     return graphJSON6
 
-
+#added port = 5000
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000)
