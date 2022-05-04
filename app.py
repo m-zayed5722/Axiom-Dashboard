@@ -1,5 +1,5 @@
-import sys
-sys.path.append('./test_deploy')
+#import sys
+#sys.path.append('./test_deploy')
 
 import axiom.read2 as reader
 import axiom.plot_func as pl_f
@@ -208,4 +208,4 @@ def gm6(data_x3='008.Filling  time [s]', g_id6='1'):
 
 #added port = 5000
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0')
